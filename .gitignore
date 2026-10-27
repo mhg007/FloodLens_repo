@@ -1,0 +1,24 @@
+# Node / frontend
+node_modules/
+dist/
+*.local
+
+# Python / backend
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Model weights and certs - too large / secrets, don't commit
+*.pt
+*.pth
+key.pem
+cert.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
